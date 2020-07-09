@@ -1,0 +1,38 @@
+<html>
+<head>
+  <title>this + that</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="adder.css">
+  <script src="./jquery-3.2.1.min.js"></script>
+  </head>
+<body>
+  <h1>Two Term Adder <span class="error"></span></h1>
+
+  <div class="field">
+    <input name="field1" class="addend ugh">
+    <div class="buttons">
+      <span class="incrementer" data-field="field1">+</span><br>
+      <span class="decrementer" data-field="field1">-</span>
+    </div>
+  </div>
+
+  <div class="sign">+</div>
+
+  <div class="field">
+    <input name="field2" class="addend">
+    <div class="buttons">
+      <span class="incrementer" data-field="field2">+</span><br>
+      <span class="decrementer" data-field="field3">-</span>
+    </div>
+  </div>
+
+  <div class="sign">=</div>
+
+  <div class="field">
+    <input name="sum"><br>
+    <span class="calculate">Calculate</button>
+  </div><br>
+
+  <script src="./adder.js"></script>
+</body>
+</html>
